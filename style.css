@@ -1,0 +1,65 @@
+
+html,body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+body{
+    background-image: url("./colorpencil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p { font-size: 20px;margin: 10px;}
+canvas{
+	border: 5px solid black;
+    margin:8px auto;
+    height: 100%;
+    box-shadow: 5px 12px 10px 8px grey;
+}
+ 
+div{
+  background-color: #bdd3e2f2;}
+.color1{
+cursor: pointer;
+}
+button{
+    width: 100px;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-bottom: 3px;
+  border: 2px solid black;
+  font-family: courier;
+}
+button:hover{
+  color: tomato;
+  cursor: pointer;
+}
+
+.slidecontainer {
+  display: inline-grid;
+  width: 400px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 20px;
+  background:lavenderblush;
+  outline: none;
+  opacity: 0.65;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 20px;
+  background: #9797ff;
+  cursor: pointer;
+}
+
