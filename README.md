@@ -1,3 +1,4 @@
-# drawing
-# inspiration from JS30 
-# HTML Canvas and slider
+inspiration from JS30 
+- HTML5 Canvas 
+- slider (input type = range)
+- choose color (input type = color) 
